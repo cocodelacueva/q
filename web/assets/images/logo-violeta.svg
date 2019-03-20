@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg16"
+   version="1.1"
+   viewBox="0 0 50.177 50.11"
+   height="50.11"
+   width="50.177">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <style
+       id="style2">.a{fill:#fff;}</style>
+  </defs>
+  <g
+     style="fill:#6459b0;fill-opacity:1"
+     id="g14"
+     transform="translate(-686.982 -992.055)">
+    <g
+       style="fill:#6459b0;fill-opacity:1"
+       id="g12"
+       transform="translate(686.982 992.055)">
+      <path
+         style="fill:#6459b0;fill-opacity:1"
+         id="path6"
+         transform="translate(-686.982 -992.055)"
+         d="M717.186,1031.236a15.047,15.047,0,1,1,8.416-7.648l-1.366-1.367a5.1,5.1,0,0,0-7.011-.267,5.011,5.011,0,0,0-.175,7.254l4.857,4.857a.148.148,0,0,1-.19.227l-4.326-3.028a.222.222,0,0,0-.2-.027m13.553-2.862,2.515,1.762a.149.149,0,0,0,.213-.044,25.055,25.055,0,1,0-46.486-13,25.468,25.468,0,0,0,24.73,25.068,24.925,24.925,0,0,0,14.136-4.156l2.591,2.59a5.1,5.1,0,0,0,7.012.268,5.011,5.011,0,0,0,.175-7.254l-5.046-5.046a.125.125,0,0,1,.16-.191"
+         class="a" />
+      <path
+         style="fill:#6459b0;fill-opacity:1"
+         id="path8"
+         transform="translate(-732.783 -993.238)"
+         d="M780.017,994.925h.66a.389.389,0,0,1,.288.106.379.379,0,0,1,.1.271c0,.26-.133.381-.411.381h-.64Zm.989,1.185a.8.8,0,0,0,.338-.2.834.834,0,0,0,.232-.6.858.858,0,0,0-.9-.86h-.993a.159.159,0,0,0-.159.16v2.256a.159.159,0,0,0,.159.159h.174a.159.159,0,0,0,.159-.159v-.7h.386l.732.8a.16.16,0,0,0,.118.052h.229a.159.159,0,0,0,.117-.267Z"
+         class="a" />
+      <path
+         style="fill:#6459b0;fill-opacity:1"
+         id="path10"
+         transform="translate(-731.26 -992.055)"
+         d="M778.943,996.566a2.017,2.017,0,1,1,2.017-2.017,2.02,2.02,0,0,1-2.017,2.017m0-4.511a2.494,2.494,0,1,0,2.495,2.494,2.5,2.5,0,0,0-2.495-2.494"
+         class="a" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="5.0428667mm"
+   height="5.0430636mm"
+   viewBox="0 0 5.0428667 5.0430636"
+   version="1.1"
+   id="svg876"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="icon-plane-violeta.svg">
+  <defs
+     id="defs870" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="626.67252"
+     inkscape:cy="-496.18409"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1869"
+     inkscape:window-height="1025"
+     inkscape:window-x="51"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata873">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(236.11068,-12.50823)">
+    <path
+       style="fill:#6459b0;stroke-width:0.26458332"
+       inkscape:connector-curvature="0"
+       id="path12-3"
+       d="m -231.57185,13.012241 a 0.42095208,0.42095208 0 0 1 0.096,0.288304 0.67124792,0.67124792 0 0 1 -0.19289,0.385215 l -0.76894,0.768935 0.28831,2.018125 -0.28756,0.287556 -0.76856,-1.730197 -1.05705,1.057052 0.0962,0.865097 -0.19214,0.192141 -0.48139,-0.86566 -0.86565,-0.481379 0.19176,-0.191766 0.8651,0.09616 1.05742,-1.057425 -1.72888,-0.767251 0.2883,-0.288303 2.01832,0.28849 0.76818,-0.768186 a 0.67124792,0.67124792 0 0 1 0.38447,-0.19214 0.42095208,0.42095208 0 0 1 0.2883,0.09598 m 0.28905,-0.289052 a 0.83290833,0.83290833 0 0 0 -0.5766,-0.215527 1.0498667,1.0498667 0 0 0 -0.67371,0.312251 l -0.62394,0.623941 -1.81719,-0.258743 a 0.40772292,0.40772292 0 0 0 -0.34518,0.114685 l -0.2883,0.288304 a 0.4079875,0.4079875 0 0 0 0.12254,0.660984 l 1.18745,0.527777 -0.49878,0.498778 -0.6694,-0.07521 a 0.40772292,0.40772292 0 0 0 -0.33264,0.116369 l -0.19215,0.19214 a 0.4079875,0.4079875 0 0 0 0.0902,0.644707 l 0.76332,0.423943 0.42394,0.763322 a 0.40772292,0.40772292 0 0 0 0.64471,0.09018 l 0.19083,-0.190831 a 0.40772292,0.40772292 0 0 0 0.11637,-0.332643 l -0.0745,-0.670152 0.49953,-0.499527 0.52759,1.187639 a 0.40772292,0.40772292 0 0 0 0.66098,0.122543 l 0.28831,-0.288303 a 0.40772292,0.40772292 0 0 0 0.11543,-0.345927 l -0.25968,-1.816631 0.62394,-0.623941 a 1.0498667,1.0498667 0 0 0 0.31244,-0.673519 0.83290833,0.83290833 0 0 0 -0.21553,-0.576607 z"
+       class="c" />
+  </g>
+</svg>
