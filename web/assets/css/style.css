@@ -456,6 +456,36 @@ html, body {
   height: 60px;
   text-align: center;
   transition: background-color 500ms, transform 100ms;
+  /*&::before {
+    content: attr(data-tooltip);
+    width: $tooltip-width;
+    height: $tooltip-height;
+    background-color: $color-rosa;
+    color: white;
+    font-size: 1rem;
+    border-radius: .25em;
+    line-height: $tooltip-height;
+    bottom: 90px;
+    left: calc(50% - 70px);
+  }
+
+  &::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: $color-rosa;
+    left: calc(50% - 10px);
+    bottom: 70px;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    opacity: 0;
+    transition: all $duration;
+    visibility: hidden;
+  }*/
 }
 .icon-download__textWrapper {
   overflow: hidden;
@@ -473,33 +503,6 @@ html, body {
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-}
-.icon-download::before {
-  content: attr(data-tooltip);
-  width: 140px;
-  height: 60px;
-  background-color: #FF495D;
-  color: white;
-  font-size: 1rem;
-  border-radius: 0.25em;
-  line-height: 60px;
-  bottom: 90px;
-  left: calc(50% - 70px);
-}
-.icon-download::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-top-color: #FF495D;
-  left: calc(50% - 10px);
-  bottom: 70px;
-}
-.icon-download::before, .icon-download::after {
-  position: absolute;
-  opacity: 0;
-  transition: all 500ms;
-  visibility: hidden;
 }
 .icon-download:hover {
   background-color: transparent;
@@ -2212,6 +2215,7 @@ html, body {
 @media (min-width: 1600px) {
   .destinos-header .q-icon-title {
     width: 240px;
+    height: 168px;
   }
 }
 .destinos-header .q-icon-title img {

@@ -86,20 +86,20 @@ getTemplate( 'header' ); ?>
                 Reservá tu lugar ahora
             </span>
             <span class="only-pc">
-                <em class="color-white">Comprá</em><br>tu<br> viaje
+                <em class="color-white">Comprá</em><br>tu<br> viaje acá
             </span>
         </div>
         <div class="compra-wrapper">
             <h2>
                 <span class="only-mobile">
-                    Comprá tu viaje ahora.
+                    Reservá con un solo click.
                 </span>
                 <span class="only-pc">
-                    Comprá tu viaje con un solo click.
+                    Reservá con un solo click.
                 </span>
             </h2>
             
-            <p>Hacé click en este botón y empezá a palpitar el viaje de tu vida.</p>
+            <!--<p>Hacé click en este botón y empezá a palpitar el viaje de tu vida.</p>-->
 
             <div class="wrapper-button">
                 <a class="icon-btn-right open-form" href="#compra-online">
@@ -129,17 +129,17 @@ getTemplate( 'header' ); ?>
             </h3>
             <ul>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="http://auckland.cloudapp.net/Account/Login" target="_blank">
                         Inscripciones
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="http://auckland.cloudapp.net/Account/Login" target="_blank">
                         Cupones de Pago
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">
+                    <a href="http://auckland.cloudapp.net/Account/Login" target="_blank">
                         Ficha Médica
                     </a>
                 </li>

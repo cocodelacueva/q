@@ -40,7 +40,7 @@ foreach ($data as $itemData ) { ?>
                     
                     <source srcset="<?php echo UPLOADSURL . $itemData['icon']['1X']; ?> 1x, <?php echo UPLOADSURL . $itemData['icon']['2X']; ?> 2x" media="(min-width: 315px)">
                 <img src="<?php echo UPLOADSURL . $itemData['icon']['1X']; ?>" alt="Q - <?php echo $itemData['titulo']; ?>">
-                <picture>
+                </picture>
                 <?php endif; ?>
             </div>
             
@@ -99,7 +99,7 @@ foreach ($data as $itemData ) { ?>
 
                 <div class="data-extra">
 
-                    <a class="icon-download only-pc" data-tooltip="Tamaño: <?php echo $itemData['pdf_size']; ?>" href="<?php echo UPLOADSURL . '/' . $itemData['pdf']; ?>">
+                    <a class="icon-download only-pc" data-tooltip="Tamaño: <?php echo $itemData['pdf_size']; ?>" href="<?php echo UPLOADSURL . '/' . $itemData['pdf']; ?>" target="_blank">
                         <span class="icon-download__textWrapper">
                             <span class="icon-download__text">Descargar PDF</span>
                             <picture>
