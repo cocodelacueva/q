@@ -1,18 +1,11 @@
 <?php 
 $experiencias = array(
     array(
-        'titulo'=> 'El mejor viaje de mi vida.',
-        'nombre'=> 'Nombre Apellido',
+        'titulo'=> 'Mundo Disney',
+        'nombre'=> 'Powered by Q',
         'imagen'=> '',
         'imagen2x'=> '',
-        'video'=> 'https://vimeo.com/31578383',
-    ),
-    array(
-        'titulo'=> 'El Otro viaje de mi vida.',
-        'nombre'=> 'Nombre Apellido',
-        'imagen'=> '',
-        'imagen2x'=> '',
-        'video'=> 'https://vimeo.com/281201099',
+        'video'=> 'https://vimeo.com/327353817/7bdb54ef0e',
     ),
 );
 ?>
