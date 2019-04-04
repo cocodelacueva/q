@@ -34,7 +34,7 @@ foreach ($data as $itemData ) { ?>
                 <?php if ( $itemData['icon']['1X'] != '') : ?>
                 <picture>
                     
-                    <?php if ( $itemData['icon']['1X'] != '') : ?>        
+                    <?php if ( $itemData['icon']['svg'] != '') : ?>        
                         <source srcset="<?php echo UPLOADSURL . $itemData['icon']['svg']; ?>" type="image/svg+xml">
                     <?php endif; ?>
                     

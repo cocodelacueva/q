@@ -8,7 +8,7 @@ $disney = array(
     'header' => array(
         'letras' => 'q1-header',
         'link' => '#compra-online',
-        'paquete' => 'disney',
+        'paquete' => 'q1',
         'menu' => '',
         'imagen' => array(
             'imagen' => 'q1-header.jpg',
@@ -20,8 +20,8 @@ $disney = array(
     'color' => 'rosa',
     'titulo' => 'Disney',
     'noches' => '9 Noches',
-    'icon' => array('svg' => 'q1-header.svg', '1X' => 'q1-header.png', '2X' => 'q1-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q1-header.png', '2X' => 'q1-header@2x.png'),
+    'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques!</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '11 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando') ),
@@ -35,14 +35,14 @@ $disney = array(
     'extra' => array(
         array('titulo' => 'Parques temáticos', 
             'icon' => array('svg' => 'parques-icon.svg', '1X' => 'parques-icon.png', '2X' => 'parques-icon@2x.png'),
-            'data' => array('Disney Parks')
+            'data' => array('Disney Parks, Universal Parks, SeaWorld Parks')
         ),
         array('titulo' => 'Tour de compras',
             'icon' => array('svg' => 'compras-icon.svg', '1X' => 'compras-icon.png', '2X' => 'compras-icon@2x.png'),
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive'),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
@@ -55,7 +55,7 @@ $disneyUniversal = array(
     'header' => array(
         'letras' => 'q2-header',
         'link' => '#compra-online',
-        'paquete' => 'disney-universal',
+        'paquete' => 'q2',
         'menu' => '',
         'imagen' => array(
             'imagen' => 'q2-header.jpg',
@@ -67,14 +67,14 @@ $disneyUniversal = array(
     'color' => 'rosa',
     'titulo' => 'Disney y Universal',
     'noches' => '9 Noches',
-    'icon' => array('svg' => 'q2-header.svg', '1X' => 'q2-header.png', '2X' => 'q2-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q2-header.png', '2X' => 'q2-header@2x.png'),
+    'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques!</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '11 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando') ),
         array( 'titulo' => 'Noches de alojamiento', 'lista' => array( '09 Noches totales', ) ),
         array( 'titulo' => 'Estadía', 'lista' => array( '09 Noches en Disney Resorts' ) ),
-        array( 'titulo' => 'Parques temáticos', 'lista' => array( '09 totales', '04 Disney Parks', '07 Universal Parks' ) ),
+        array( 'titulo' => 'Parques temáticos', 'lista' => array( '07 totales', '04 Disney Parks', '03 Universal Parks' ) ),
 
     ),
     'pdf' => 'q2-itinerario.pdf',
@@ -82,14 +82,14 @@ $disneyUniversal = array(
     'extra' => array(
         array('titulo' => 'Parques temáticos', 
             'icon' => array('svg' => 'parques-icon.svg', '1X' => 'parques-icon.png', '2X' => 'parques-icon@2x.png'),
-            'data' => array('04 Disney Parks', '03 Universal Parks', '02 SeaWorld Parks')
+            'data' => array('04 Disney Parks', '03 Universal Parks',)
         ),
         array('titulo' => 'Tour de compras',
             'icon' => array('svg' => 'compras-icon.svg', '1X' => 'compras-icon.png', '2X' => 'compras-icon@2x.png'),
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s')
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
@@ -102,7 +102,7 @@ $disneyMiami = array(
     'header' => array(
         'letras' => 'q3-header',
         'link' => '#compra-online',
-        'paquete' => 'disney-universal',
+        'paquete' => 'q3',
         'menu' => '',
         'imagen' => array(
             'imagen' => 'q3-header.jpg',
@@ -114,8 +114,8 @@ $disneyMiami = array(
     'color' => 'rosa',
     'titulo' => 'Disney y Miami',
     'noches' => '11 Noches',
-    'icon' => array('svg' => 'q3-header.svg', '1X' => 'q3-header.png', '2X' => 'q3-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q3-header.png', '2X' => 'q3-header@2x.png'),
+    'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques! Además, no hay necesidad de correr, porque vamos a disfrutar de un parque por día, para que tengas tiempo de subir a todas las atracciones las veces que quieras.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '13 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando') ),
@@ -161,8 +161,8 @@ $q4 = array(
     'color' => 'rosa',
     'titulo' => 'Q4',
     'noches' => '11 Noches',
-    'icon' => array('svg' => 'q4-header.svg', '1X' => 'q4-header.png', '2X' => 'q4-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q4-header.png', '2X' => 'q4-header@2x.png'),
+    'resumen' => '<p>Es uno de los más completos, incluye los mejores parques de Orlando y también dos días en Miami para disfrutar de la playa a full y todo el confort de nuestros hoteles 4 estrellas. Este paquete ofrece uno de los planes de actividades más completos y divertidos.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '13 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando', 'Miami') ),
@@ -183,8 +183,12 @@ $q4 = array(
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
         ),
+        array('titulo' => 'Plan de actividades Miami',
+            'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
+            'data' => array('City tour', 'Tour de compras', 'Crucero por la bahía de Biscayne', 'Beach Day', 'Hard Rock Café', 'Camila’s Restaurant o TGI Friday’s', 'Fiesta de despedida'),
+        ), 
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
             'data' => array('Exclusive Card', 'Club Q', 'Kit de viaje exclusivo', 'Jornada de integración', 'Gestión Visa grupal')
@@ -208,11 +212,11 @@ $q5 = array(
     'color' => 'rosa',
     'titulo' => 'Q5',
     'noches' => '14 Noches',
-    'icon' => array('svg' => 'q5-header.svg', '1X' => 'q5-header.png', '2X' => 'q5-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q5-header.png', '2X' => 'q5-header@2x.png'),
+    'resumen' => '<p>Es uno de los más completos, incluye los mejores parques de Orlando y más tiempo para disfrutarlos, también dos días en Miami para vivir la playa a full y todo el confort de nuestros hoteles 4 estrellas.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '16 Días totales' ) ),
-        array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando') ),
+        array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando', 'Miami') ),
         array( 'titulo' => 'Noches de alojamiento', 'lista' => array( '14 Noches totales', ) ),
         array( 'titulo' => 'Estadía', 'lista' => array( '12 Noches en Disney Resorts', '02 Noches en Miami Beach ' ) ),
         array( 'titulo' => 'Parques temáticos', 'lista' => array( '09 totales', '04 Disney Parks', '03 Universal Parks', '02 SeaWorld Parks' ) ),
@@ -230,7 +234,11 @@ $q5 = array(
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
+        ),
+        array('titulo' => 'Plan de actividades Miami',
+            'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
+            'data' => array('City tour', 'Tour de compras', 'Crucero por la bahía de Biscayne', 'Beach Day', 'Hard Rock Café', 'Camila’s Restaurant o TGI Friday’s', 'Fiesta de despedida'),
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
@@ -255,11 +263,11 @@ $q5plus = array(
     'color' => 'rosa',
     'titulo' => 'Q5 Plus',
     'noches' => '14 Noches',
-    'icon' => array('svg' => 'q5p-header.svg', '1X' => 'q5p-header.png', '2X' => 'q5p-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q5p-header.png', '2X' => 'q5p-header@2x.png'),
+    'resumen' => '<p>Es uno de los más completos, incluye todos los parques en Orlando, incluso Discovery Cove, donde podés nadar con delfines. Además, disfrutá dos días en Miami para vivir la playa a full y todo el confort de nuestros hoteles 4 estrellas.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '16 Días totales' ) ),
-        array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando') ),
+        array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando', 'Miami') ),
         array( 'titulo' => 'Noches de alojamiento', 'lista' => array( '14 Noches totales', ) ),
         array( 'titulo' => 'Estadía', 'lista' => array( '12 Noches en Disney Resorts', '02 Noches en Miami Beach' ) ),
         array( 'titulo' => 'Parques temáticos', 'lista' => array( '10 totales', '04 Disney Parks', '03 Universal Parks', '03 SeaWorld Parks' ) ),
@@ -277,7 +285,11 @@ $q5plus = array(
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
+        ),
+        array('titulo' => 'Plan de actividades Miami',
+            'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
+            'data' => array('City tour', 'Tour de compras', 'Crucero por la bahía de Biscayne', 'Beach Day', 'Hard Rock Café', 'Camila’s Restaurant o TGI Friday’s', 'Fiesta de despedida'),
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
@@ -290,7 +302,7 @@ $q6 = array(
     'header' => array(
         'letras' => 'q6-header',
         'link' => '#compra-online',
-        'paquete' => 'disney-universal',
+        'paquete' => 'q6',
         'menu' => '',
         'imagen' => array(
             'imagen' => 'q6-header.jpg',
@@ -302,8 +314,8 @@ $q6 = array(
     'color' => 'rosa',
     'titulo' => 'Q6',
     'noches' => '14 Noches',
-    'icon' => array('svg' => 'q6-header.svg', '1X' => 'q6-header.png', '2X' => 'q6-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q6-header.png', '2X' => 'q6-header@2x.png'),
+    'resumen' => '<p>Es el más completo de todos y sus principales características son que : durante tu estadía en Orlando, además de alojarte en Disney, también te alojás dentro del mundo Universal. Obteniendo una hora extra en todos los parques para disfrutar más de las principales atracciones.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '16 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando', 'Miami') ),
@@ -324,7 +336,11 @@ $q6 = array(
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
+        ),
+        array('titulo' => 'Plan de actividades Miami',
+            'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
+            'data' => array('City tour', 'Tour de compras', 'Crucero por la bahía de Biscayne', 'Beach Day', 'Hard Rock Café', 'Camila’s Restaurant o TGI Friday’s', 'Fiesta de despedida'),
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
@@ -337,7 +353,7 @@ $q6plus = array(
     'header' => array(
         'letras' => 'q6p-header',
         'link' => '#compra-online',
-        'paquete' => 'disney-universal',
+        'paquete' => 'q6-plus',
         'menu' => '',
         'imagen' => array(
             'imagen' => 'q6p-header.jpg',
@@ -349,8 +365,8 @@ $q6plus = array(
     'color' => 'rosa',
     'titulo' => 'Q6 Plus',
     'noches' => '14 Noches',
-    'icon' => array('svg' => 'q6p-header.svg', '1X' => 'q6p-header.png', '2X' => 'q6p-header@2x.png'),
-    'resumen' => '<p>Es el más completo de todas las opciones y tiene la particularidad de que durante tu estadía en Orlando, además de alojarte dentro del mundo de Disney, también te alojás dentro del mundo Universal, obteniendo una hora extra en todos los parques para disfrutar más y sin largas colas, de las principales atracciones, como por ejemplo la de Harry Potter o Toy Story Land.</p>',
+    'icon' => array('svg' => '', '1X' => 'q6p-header.png', '2X' => 'q6p-header@2x.png'),
+    'resumen' => '<p>Es el más completo de todos y sus principales características son que : durante tu estadía en Orlando, además de alojarte en Disney, también te alojás dentro del mundo Universal. Obteniendo una hora extra en todos los parques para disfrutar más de las principales atracciones. Además este plan incluye Discovery Cove, donde podés nadar con delfines.</p>',
     'dataDestino' => array(
         array( 'titulo' => 'Duración', 'lista' => array( '16 Días totales' ) ),
         array( 'titulo' => 'Destinos', 'lista' => array( 'Orlando', 'Miami') ),
@@ -371,7 +387,11 @@ $q6plus = array(
             'data' => array('Walmart', 'Disney Spring', 'Outlets','Tecno Shopping y perfumerías')
         ),
         array('titulo' => 'Cenas y fiestas exclusivas', 'icon' => array('svg' => 'cenas-icon.svg', '1X' => 'cenas-icon.png', '2X' => 'cenas-icon@2x.png'),
-         'data' => array('Rainforest Café', 'Camila´s Restaurant', 'T Rex o Planet Hollywood', 'IDrive' ),
+         'data' => array('Almuerzo con los personajes de Disney',' Pool Party en el hotel', 'Camila’s Restaurant', 'Rainforest Café', 'Trex o Planet Hollywood', 'IDrive', 'Fiesta de disfraces', 'Noche de gala', 'Pizza Party by Domino’s'),
+        ),
+        array('titulo' => 'Plan de actividades Miami',
+            'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
+            'data' => array('City tour', 'Tour de compras', 'Crucero por la bahía de Biscayne', 'Beach Day', 'Hard Rock Café', 'Camila’s Restaurant o TGI Friday’s', 'Fiesta de despedida'),
         ),
         array('titulo' => 'Extras incluidos',
             'icon' => array('svg' => 'extras-icon.svg', '1X' => 'extras-icon.png', '2X' => 'extras-icon@2x.png'),
