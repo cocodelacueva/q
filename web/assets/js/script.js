@@ -114,7 +114,9 @@ $(document).ready(function(){
         }
     }
 
+    
     //scroll up /down navbar
+    var position = $(window).scrollTop(); 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         var menu = $('.main-menu-wrapper');
@@ -927,14 +929,23 @@ function startSliderBoxes() {
     var box1 = $('#slide-nieve');
     var box2 = $('#slide-playa');
     var box3 = $('#slide-city');
+    var box4 = $('#slide-nieve2');
+    var box5 = $('#slide-playa2');
+    var box6 = $('#slide-city2');
     
     var sliderBar1 = $(box1).find('.slide-progress');
     var sliderBar2 = $(box2).find('.slide-progress');
     var sliderBar3 = $(box3).find('.slide-progress');
+    var sliderBar4 = $(box4).find('.slide-progress');
+    var sliderBar5 = $(box5).find('.slide-progress');
+    var sliderBar6 = $(box6).find('.slide-progress');
 
     var slider1 = $(box1).find('.owl-carousel');
     var slider2 = $(box2).find('.owl-carousel');
     var slider3 = $(box3).find('.owl-carousel');
+    var slider4 = $(box4).find('.owl-carousel');
+    var slider5 = $(box5).find('.owl-carousel');
+    var slider6 = $(box6).find('.owl-carousel');
 
     var flechaIzqHtml = '<picture><source srcset="'+baseUrl+'/assets/images/flecha-azul.svg" type="image/svg+xml"><source srcset="'+baseUrl+'/assets/images/flecha-azul.png 1x, '+baseUrl+'/assets/images/flecha-azul@2x.png "media="(min-width: 315px)"><img class="flecha-izquierda" src="'+baseUrl+'/assets/images/flecha-azul.png" alt="icon-flecha"></picture>';
     var flechaDerHtml = '<picture><source srcset="'+baseUrl+'/assets/images/flecha-azul.svg" type="image/svg+xml"><source srcset="'+baseUrl+'/assets/images/flecha-azul.png 1x, '+baseUrl+'/assets/images/flecha-azul@2x.png "media="(min-width: 315px)"><img class="flecha-derecha" src="'+baseUrl+'/assets/images/flecha-azul.png" alt="icon-flecha"></picture>';
@@ -984,6 +995,50 @@ function startSliderBoxes() {
         dots:false,
     });
 
+    $(slider4).owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:4000,
+        animateIn:  'slideInRight',
+        animateOut: 'slideOutLeft',
+        onInitialized: startProgressBar,
+        onTranslate: resetProgressBar4,
+        onTranslated: startProgressBar,
+        nav:true,
+        navText : [flechaIzqHtml, flechaDerHtml],
+        dots:false,
+    });
+
+    $(slider5).owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:5000,
+        animateIn:  'slideInRight',
+        animateOut: 'slideOutLeft',
+        onInitialized: startProgressBar,
+        onTranslate: resetProgressBar5,
+        onTranslated: startProgressBar,
+        nav:true,
+        navText : [flechaIzqHtml, flechaDerHtml],
+        dots:false,
+    });
+
+    $(slider6).owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout:6000,
+        animateIn:  'slideInRight',
+        animateOut: 'slideOutLeft',
+        onInitialized: startProgressBar,
+        onTranslate: resetProgressBar6,
+        onTranslated: startProgressBar,
+        nav:true,
+        navText : [flechaIzqHtml, flechaDerHtml],
+        dots:false,
+    });
 
     //inicia la progress bar de los sliders  
     function startProgressBar() {
@@ -1001,6 +1056,21 @@ function startSliderBoxes() {
         });
 
         $(sliderBar3).css({
+            width: persentajeWidth,
+            transition: "width 6000ms"
+        });
+
+        $(sliderBar4).css({
+            width: persentajeWidth,
+            transition: "width 4000ms"
+        });
+
+        $(sliderBar5).css({
+            width: persentajeWidth,
+            transition: "width 5000ms"
+        });
+
+        $(sliderBar6).css({
             width: persentajeWidth,
             transition: "width 6000ms"
         });
@@ -1024,6 +1094,27 @@ function startSliderBoxes() {
     function resetProgressBar3() {
         
         $(sliderBar3).css({
+            width: 0,
+            transition: "width 0s"
+        });
+    }
+    function resetProgressBar4() {
+        
+        $(sliderBar4).css({
+            width: 0,
+            transition: "width 0s"
+        });
+    }
+    function resetProgressBar5() {
+        
+        $(sliderBar5).css({
+            width: 0,
+            transition: "width 0s"
+        });
+    }
+    function resetProgressBar6() {
+        
+        $(sliderBar6).css({
             width: 0,
             transition: "width 0s"
         });

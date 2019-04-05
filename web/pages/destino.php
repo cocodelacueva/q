@@ -4,7 +4,7 @@
  * es el html de la pagina de destino
 */
 
-$disney = array(
+$q1 = array(
     'header' => array(
         'letras' => 'q1-header',
         'link' => '#compra-online',
@@ -18,7 +18,7 @@ $disney = array(
         ),
     ),
     'color' => 'rosa',
-    'titulo' => 'Disney',
+    'titulo' => 'Q1',
     'noches' => '9 Noches',
     'icon' => array('svg' => '', '1X' => 'q1-header.png', '2X' => 'q1-header@2x.png'),
     'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques!</p>',
@@ -51,7 +51,7 @@ $disney = array(
     ),
 );
 
-$disneyUniversal = array(
+$q2 = array(
     'header' => array(
         'letras' => 'q2-header',
         'link' => '#compra-online',
@@ -65,7 +65,7 @@ $disneyUniversal = array(
         ),
     ),
     'color' => 'rosa',
-    'titulo' => 'Disney y Universal',
+    'titulo' => 'Q2',
     'noches' => '9 Noches',
     'icon' => array('svg' => '', '1X' => 'q2-header.png', '2X' => 'q2-header@2x.png'),
     'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques!</p>',
@@ -98,7 +98,7 @@ $disneyUniversal = array(
     ),
 );
 
-$disneyMiami = array(
+$q3 = array(
     'header' => array(
         'letras' => 'q3-header',
         'link' => '#compra-online',
@@ -112,7 +112,7 @@ $disneyMiami = array(
         ),
     ),
     'color' => 'rosa',
-    'titulo' => 'Disney y Miami',
+    'titulo' => 'Q3',
     'noches' => '11 Noches',
     'icon' => array('svg' => '', '1X' => 'q3-header.png', '2X' => 'q3-header@2x.png'),
     'resumen' => '<p>Es uno de los programas más divertidos y te incluye los mejores parques de Orlando. El programa fast pass para que no pierdas ni un segundo de diversión haciendo filas, un genial lunch con tus personajes favoritos de Disney y alojamiento dentro de los parques! Además, no hay necesidad de correr, porque vamos a disfrutar de un parque por día, para que tengas tiempo de subir a todas las atracciones las veces que quieras.</p>',
@@ -402,20 +402,33 @@ $q6plus = array(
 
 
 switch (PAGEACTUAL) {
-    case 'disney':
-        $pageData = array($disney,$disneyUniversal,$disneyMiami,$q4,$q5,$q5plus,$q6,$q6plus);
+    case 'q1':
+        $pageData = array($q1,$q2,$q3,$q4,$q5,$q5plus,$q6,$q6plus);
     break;
-
-    case 'disney-universal':
-        $pageData = array($disneyUniversal,$disney,$disneyMiami,$q4,$q5,$q5plus,$q6,$q6plus);
+    case 'q2':
+        $pageData = array($q2,$q1,$q3,$q4,$q5,$q5plus,$q6,$q6plus);
     break;
-
-    case 'disney-miami':
-        $pageData = array($disneyMiami,$disney,$disneyUniversal,$q4,$q5,$q5plus,$q6,$q6plus);
+    case 'q3':
+        $pageData = array($q3,$q1,$q2,$q4,$q5,$q5plus,$q6,$q6plus);
+    break;
+    case 'q4':
+        $pageData = array($q4,$q5,$q5plus,$q6,$q6plus,$q1,$q2,$q3,);
+    break;
+    case 'q5':
+        $pageData = array($q5,$q5plus,$q6,$q6plus,$q1,$q2,$q3,$q4,);
+    break;
+    case 'q5plus':
+        $pageData = array($q5plus,$q6,$q6plus,$q1,$q2,$q3,$q4,$q5);
+    break;
+    case 'q6':
+        $pageData = array($q6,$q6plus,$q1,$q2,$q3,$q4,$q5,$q5plus);
+    break;
+    case 'q6plus':
+        $pageData = array($q6plus,$q1,$q2,$q3,$q4,$q5,$q5plus,$q6);
     break;
 
     default :
-        $pageData = array($disney,$disneyUniversal,$disneyMiami,$q4,$q5,$q5plus,$q6,$q6plus);
+        $pageData = array($q1,$q2,$q3,$q4,$q5,$q5plus,$q6,$q6plus);
     break;
 }
 

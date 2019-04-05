@@ -11,9 +11,14 @@ require_once 'inc/functions.php';
 define('PAGEACTUAL', pageActual( cleanUri() ) );
 
 switch ( PAGEACTUAL ) {    
-    case 'disney' :
-    case 'disney-universal' :
-    case 'disney-miami' :
+    case 'q1' :
+    case 'q2' :
+    case 'q3' :
+    case 'q4' :
+    case 'q5' :
+    case 'q6' :
+    case 'q5plus' :
+    case 'q6plus' :
         getPage( 'destino' );
     break;
 

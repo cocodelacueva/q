@@ -390,6 +390,11 @@
         -ms-align-items: center;
         -o-align-items: center;
         align-items: center;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        -o-flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 
     li {
