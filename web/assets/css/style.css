@@ -1642,13 +1642,12 @@ html, body {
 }
 @media (min-width: 992px) {
   .destinos-wrapper .destino .icon-title {
-    width: 120px;
+    width: auto;
     height: 90px;
   }
 }
 @media (min-width: 1600px) {
   .destinos-wrapper .destino .icon-title {
-    width: 177px;
     height: 130px;
   }
 }

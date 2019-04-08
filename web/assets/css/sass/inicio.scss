@@ -490,11 +490,10 @@
             height: 130px;
             position: relative;
             @media (min-width: $md) {
-                width: 120px;
+                width: auto;
                 height: 90px;
             }
             @media (min-width: $xlg) {
-                width: 177px;
                 height: 130px;
             }
         }
