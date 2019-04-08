@@ -1637,7 +1637,7 @@ html, body {
 .destinos-wrapper .destino .icon-title {
   display: block;
   width: 177px;
-  height: 130px;
+  height: auto;
   position: relative;
 }
 @media (min-width: 992px) {
