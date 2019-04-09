@@ -1,7 +1,7 @@
 <?php 
 $experiencias = array(
     array(
-        'titulo'=> 'Mundo Disney',
+        'titulo'=> 'Viví la magia del mundo Disney',
         'nombre'=> 'Powered by Q',
         'imagen'=> '',
         'imagen2x'=> '',

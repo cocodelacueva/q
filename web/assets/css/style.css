@@ -1776,13 +1776,13 @@ html, body {
   .wrapper-slider-testimonios .experiencia-data {
     padding: 50px 40px 50px;
     width: 50%;
-    height: 350px;
+    height: 290px;
   }
 }
 @media (min-width: 1200px) {
   .wrapper-slider-testimonios .experiencia-data {
     padding: 50px 100px 100px;
-    height: 350px;
+    height: 360px;
   }
 }
 @media (min-width: 1600px) {
@@ -1798,7 +1798,7 @@ html, body {
   font-weight: 700;
   font-size: 45px;
   line-height: 45px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   .wrapper-slider-testimonios .experiencia-data .title-experiencia {
@@ -1808,7 +1808,8 @@ html, body {
 }
 @media (min-width: 1200px) {
   .wrapper-slider-testimonios .experiencia-data .title-experiencia {
-    width: 90%;
+    width: 100%;
+    margin-top: 30px;
   }
 }
 @media (min-width: 1600px) {
@@ -1817,7 +1818,6 @@ html, body {
     font-size: 80px;
     line-height: 85px;
     letter-spacing: -5px;
-    width: 70%;
   }
 }
 .wrapper-slider-testimonios .experiencia-data .nombre-experiencia {
@@ -1831,12 +1831,12 @@ html, body {
 }
 @media (min-width: 576px) {
   .wrapper-slider-testimonios .experiencia-contenido {
-    height: 265px;
+    height: 405px;
   }
 }
 @media (min-width: 768px) {
   .wrapper-slider-testimonios .experiencia-contenido {
-    height: 540px;
+    height: 440px;
   }
 }
 @media (min-width: 992px) {
